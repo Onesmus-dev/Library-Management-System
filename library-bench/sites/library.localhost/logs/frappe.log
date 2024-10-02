@@ -1,0 +1,24 @@
+2024-10-01 22:40:00,352 ERROR frappe New Exception collected in error log
+Site: library.localhost
+Form Dict: {'with_parent': '1', 'cached_timestamp': '', 'cmd': 'frappe.desk.form.load.getdoctype'}
+2024-10-02 06:11:59,278 ERROR frappe New Exception collected in error log
+Site: library.localhost
+Form Dict: {'doctype': 'Library Transaction', 'name': 'LT00003', 'cmd': 'frappe.desk.form.load.getdoc'}
+2024-10-02 06:12:05,199 ERROR frappe New Exception collected in error log
+Site: library.localhost
+Form Dict: {'doctype': 'Library Transaction', 'name': 'LT00003', 'cmd': 'frappe.desk.form.load.getdoc'}
+2024-10-02 06:12:15,106 ERROR frappe New Exception collected in error log
+Site: library.localhost
+Form Dict: {'doctype': 'Library Transaction', 'name': 'LT00003', 'cmd': 'frappe.desk.form.load.getdoc'}
+2024-10-02 06:14:25,015 ERROR frappe New Exception collected in error log
+Site: library.localhost
+Form Dict: {'doctype': 'Library Transaction', 'name': 'LT00003', 'cmd': 'frappe.desk.form.load.getdoc'}
+2024-10-02 06:17:21,853 ERROR frappe New Exception collected in error log
+Site: library.localhost
+Form Dict: {'doctype': 'Library Transaction', 'name': 'LT00003', 'cmd': 'frappe.desk.form.load.getdoc'}
+2024-10-02 06:21:16,861 ERROR frappe New Exception collected in error log
+Site: library.localhost
+Form Dict: {'doctype': 'Library Transaction', 'name': 'LT00003', 'cmd': 'frappe.desk.form.load.getdoc'}
+2024-10-02 06:31:01,342 ERROR frappe New Exception collected in error log
+Site: library.localhost
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Library Transaction","name":"new-library-transaction-kakosmvufl","__islocal":1,"__unsaved":1,"owner":"Administrator","is_returned":0,"rent_fee_charged":50,"book":"rich dad poor dad","library_member":"LM00001","issue_date":"2024-09-01"}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}

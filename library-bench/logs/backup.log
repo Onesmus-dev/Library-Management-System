@@ -1,0 +1,6 @@
+set -o pipefail; /usr/bin/mariadb-dump --user=_af2e8be729fe38df --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _af2e8be729fe38df | /usr/bin/gzip >> ./library.localhost/private/backups/20241002_060002-library_localhost-database.sql.gz
+
+Backup Summary for library.localhost at 2024-10-02 06:00:03.899391
+Config  : /home/dokkodo/Desktop/library_management/library-bench/sites/library.localhost/private/backups/20241002_060002-library_localhost-site_config_backup.json 127.0B
+Database: /home/dokkodo/Desktop/library_management/library-bench/sites/library.localhost/private/backups/20241002_060002-library_localhost-database.sql.gz 235.1KiB
+Backup for Site library.localhost has been successfully completed
