@@ -1,3 +1,17 @@
 2024-10-01 15:34:53,528 INFO ipython === bench console session ===
 2024-10-01 15:34:53,529 INFO ipython print("hello")
 2024-10-01 15:34:53,530 INFO ipython === session end ===
+2024-10-02 21:30:34,350 INFO ipython === bench console session ===
+2024-10-02 21:30:34,392 INFO ipython import library_management.library_management.doctype.book.book as book
+book.search_books("some search term")
+2024-10-02 21:30:34,392 INFO ipython from library_management.library_management.doctype.book.book import Book
+
+# Create an instance of the Book class
+book_instance = Book()
+
+# Call the search_books method
+results = book_instance.search_books("some search term")
+print(results)
+2024-10-02 21:30:34,393 INFO ipython from library_management.library_management.doctype.book.book import Book
+2024-10-02 21:30:34,393 INFO ipython book_instance = Book()
+2024-10-02 21:30:34,395 INFO ipython === session end ===

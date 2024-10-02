@@ -2805,3 +2805,97 @@ ALTER TABLE `tabLibrary Transaction` MODIFY `rent_fee_charged` decimal(21,9) NOT
 ALTER TABLE `tabLibrary Transaction` MODIFY `rent_fee_charged` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `is_returned` tinyint NOT NULL DEFAULT 0
 2024-10-02 05:58:13,659 WARNING database DDL Query made to DB:
 ALTER TABLE `tabLibrary Transaction` MODIFY `rent_fee_charged` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `is_returned` tinyint NOT NULL DEFAULT 0
+2024-10-02 09:28:56,036 WARNING database DDL Query made to DB:
+ALTER TABLE `tabBook` ADD COLUMN `custom_search_book` varchar(140)
+2024-10-02 09:28:56,233 WARNING database DDL Query made to DB:
+ALTER TABLE `tabBook` MODIFY `rent_fee` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `stock` int NOT NULL DEFAULT 0
+2024-10-02 09:28:56,681 WARNING database DDL Query made to DB:
+ALTER TABLE `tabBook` MODIFY `rent_fee` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `stock` int NOT NULL DEFAULT 0
+2024-10-02 09:37:16,261 WARNING database DDL Query made to DB:
+ALTER TABLE `tabBook` ADD COLUMN `search_book` varchar(140)
+2024-10-02 09:37:16,386 WARNING database DDL Query made to DB:
+ALTER TABLE `tabBook` MODIFY `rent_fee` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `stock` int NOT NULL DEFAULT 0
+2024-10-02 09:38:12,775 WARNING database DDL Query made to DB:
+ALTER TABLE `tabBook` MODIFY `stock` int NOT NULL DEFAULT 0, MODIFY `rent_fee` decimal(21,9) NOT NULL DEFAULT 0.0
+2024-10-02 09:38:12,775 WARNING database DDL Query made to DB:
+ALTER TABLE `tabBook` MODIFY `stock` int NOT NULL DEFAULT 0, MODIFY `rent_fee` decimal(21,9) NOT NULL DEFAULT 0.0
+2024-10-02 09:38:43,713 WARNING database DDL Query made to DB:
+ALTER TABLE `tabLibrary Transaction` ADD COLUMN `search_book` varchar(140)
+2024-10-02 09:38:43,713 WARNING database DDL Query made to DB:
+ALTER TABLE `tabLibrary Transaction` ADD COLUMN `search_book` varchar(140)
+2024-10-02 09:38:43,865 WARNING database DDL Query made to DB:
+ALTER TABLE `tabLibrary Transaction` MODIFY `is_returned` tinyint NOT NULL DEFAULT 0, MODIFY `rent_fee_charged` decimal(21,9) NOT NULL DEFAULT 0.0
+2024-10-02 09:38:43,865 WARNING database DDL Query made to DB:
+ALTER TABLE `tabLibrary Transaction` MODIFY `is_returned` tinyint NOT NULL DEFAULT 0, MODIFY `rent_fee_charged` decimal(21,9) NOT NULL DEFAULT 0.0
+2024-10-02 09:38:58,880 WARNING database DDL Query made to DB:
+ALTER TABLE `tabLibrary Transaction` MODIFY `rent_fee_charged` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `is_returned` tinyint NOT NULL DEFAULT 0
+2024-10-02 09:38:58,880 WARNING database DDL Query made to DB:
+ALTER TABLE `tabLibrary Transaction` MODIFY `rent_fee_charged` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `is_returned` tinyint NOT NULL DEFAULT 0
+2024-10-02 09:49:36,215 WARNING database DDL Query made to DB:
+ALTER TABLE `tabLibrary Transaction` MODIFY `rent_fee_charged` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `is_returned` tinyint NOT NULL DEFAULT 0
+2024-10-02 10:07:18,059 WARNING database DDL Query made to DB:
+ALTER TABLE `tabLibrary Transaction` ADD COLUMN `search_term` varchar(140)
+2024-10-02 10:07:18,201 WARNING database DDL Query made to DB:
+ALTER TABLE `tabLibrary Transaction` MODIFY `rent_fee_charged` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `is_returned` tinyint NOT NULL DEFAULT 0
+2024-10-02 10:08:41,775 WARNING database DDL Query made to DB:
+ALTER TABLE `tabLibrary Transaction` MODIFY `rent_fee_charged` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `is_returned` tinyint NOT NULL DEFAULT 0
+2024-10-02 10:08:52,395 WARNING database DDL Query made to DB:
+ALTER TABLE `tabLibrary Transaction` MODIFY `rent_fee_charged` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `is_returned` tinyint NOT NULL DEFAULT 0
+2024-10-02 10:08:52,395 WARNING database DDL Query made to DB:
+ALTER TABLE `tabLibrary Transaction` MODIFY `rent_fee_charged` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `is_returned` tinyint NOT NULL DEFAULT 0
+2024-10-02 10:16:52,914 WARNING database DDL Query made to DB:
+ALTER TABLE `tabLibrary Transaction` MODIFY `is_returned` tinyint NOT NULL DEFAULT 0, MODIFY `rent_fee_charged` decimal(21,9) NOT NULL DEFAULT 0.0
+2024-10-02 10:16:52,914 WARNING database DDL Query made to DB:
+ALTER TABLE `tabLibrary Transaction` MODIFY `is_returned` tinyint NOT NULL DEFAULT 0, MODIFY `rent_fee_charged` decimal(21,9) NOT NULL DEFAULT 0.0
+2024-10-02 19:20:36,397 WARNING database DDL Query made to DB:
+ALTER TABLE `tabLibrary Transaction` ADD COLUMN `book_title` varchar(140)
+2024-10-02 19:39:28,387 WARNING database DDL Query made to DB:
+ALTER TABLE `tabLibrary Transaction` ADD COLUMN `return_date_` date, ADD COLUMN `rent_fee` decimal(21,9) NOT NULL DEFAULT 0.0, ADD COLUMN `outstanding_debt` decimal(21,9) NOT NULL DEFAULT 0.0
+2024-10-02 19:39:28,551 WARNING database DDL Query made to DB:
+ALTER TABLE `tabLibrary Transaction` MODIFY `is_returned` tinyint NOT NULL DEFAULT 0
+2024-10-02 19:41:46,897 WARNING database DDL Query made to DB:
+ALTER TABLE `tabLibrary Transaction` MODIFY `outstanding_debt` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `rent_fee` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `is_returned` tinyint NOT NULL DEFAULT 0
+2024-10-02 19:41:46,897 WARNING database DDL Query made to DB:
+ALTER TABLE `tabLibrary Transaction` MODIFY `outstanding_debt` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `rent_fee` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `is_returned` tinyint NOT NULL DEFAULT 0
+2024-10-02 20:08:42,634 WARNING database DDL Query made to DB:
+ALTER TABLE `tabBook` MODIFY `stock` int NOT NULL DEFAULT 0, MODIFY `rent_fee` decimal(21,9) NOT NULL DEFAULT 0.0
+2024-10-02 20:11:58,579 WARNING database DDL Query made to DB:
+ALTER TABLE `tabLibrary Transaction` ADD COLUMN `custom_search_book` varchar(140)
+2024-10-02 20:11:58,743 WARNING database DDL Query made to DB:
+ALTER TABLE `tabLibrary Transaction` MODIFY `is_returned` tinyint NOT NULL DEFAULT 0, MODIFY `rent_fee` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `outstanding_debt` decimal(21,9) NOT NULL DEFAULT 0.0
+2024-10-02 20:11:59,145 WARNING database DDL Query made to DB:
+ALTER TABLE `tabLibrary Transaction` MODIFY `rent_fee` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `is_returned` tinyint NOT NULL DEFAULT 0, MODIFY `outstanding_debt` decimal(21,9) NOT NULL DEFAULT 0.0
+2024-10-02 20:19:39,223 WARNING database DDL Query made to DB:
+ALTER TABLE `tabBook` MODIFY `stock` int NOT NULL DEFAULT 0, MODIFY `rent_fee` decimal(21,9) NOT NULL DEFAULT 0.0
+2024-10-02 20:20:18,373 WARNING database DDL Query made to DB:
+ALTER TABLE `tabLibrary Transaction` MODIFY `rent_fee` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `is_returned` tinyint NOT NULL DEFAULT 0, MODIFY `outstanding_debt` decimal(21,9) NOT NULL DEFAULT 0.0
+2024-10-02 20:20:45,905 WARNING database DDL Query made to DB:
+ALTER TABLE `tabBook` MODIFY `stock` int NOT NULL DEFAULT 0, MODIFY `rent_fee` decimal(21,9) NOT NULL DEFAULT 0.0
+2024-10-02 20:20:45,905 WARNING database DDL Query made to DB:
+ALTER TABLE `tabBook` MODIFY `stock` int NOT NULL DEFAULT 0, MODIFY `rent_fee` decimal(21,9) NOT NULL DEFAULT 0.0
+2024-10-02 20:26:05,415 WARNING database DDL Query made to DB:
+ALTER TABLE `tabBook` MODIFY `rent_fee` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `stock` int NOT NULL DEFAULT 0
+2024-10-02 20:26:05,415 WARNING database DDL Query made to DB:
+ALTER TABLE `tabBook` MODIFY `rent_fee` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `stock` int NOT NULL DEFAULT 0
+2024-10-02 20:26:14,790 WARNING database DDL Query made to DB:
+ALTER TABLE `tabBook` MODIFY `stock` int NOT NULL DEFAULT 0, MODIFY `rent_fee` decimal(21,9) NOT NULL DEFAULT 0.0
+2024-10-02 20:26:14,790 WARNING database DDL Query made to DB:
+ALTER TABLE `tabBook` MODIFY `stock` int NOT NULL DEFAULT 0, MODIFY `rent_fee` decimal(21,9) NOT NULL DEFAULT 0.0
+2024-10-02 20:27:47,121 WARNING database DDL Query made to DB:
+ALTER TABLE `tabLibrary Transaction` ADD COLUMN `return_date` date
+2024-10-02 20:27:47,121 WARNING database DDL Query made to DB:
+ALTER TABLE `tabLibrary Transaction` ADD COLUMN `return_date` date
+2024-10-02 20:27:47,296 WARNING database DDL Query made to DB:
+ALTER TABLE `tabLibrary Transaction` MODIFY `is_returned` tinyint NOT NULL DEFAULT 0, MODIFY `rent_fee` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `outstanding_debt` decimal(21,9) NOT NULL DEFAULT 0.0
+2024-10-02 20:27:47,296 WARNING database DDL Query made to DB:
+ALTER TABLE `tabLibrary Transaction` MODIFY `is_returned` tinyint NOT NULL DEFAULT 0, MODIFY `rent_fee` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `outstanding_debt` decimal(21,9) NOT NULL DEFAULT 0.0
+2024-10-02 20:27:56,132 WARNING database DDL Query made to DB:
+ALTER TABLE `tabLibrary Transaction` MODIFY `rent_fee` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `is_returned` tinyint NOT NULL DEFAULT 0, MODIFY `outstanding_debt` decimal(21,9) NOT NULL DEFAULT 0.0
+2024-10-02 20:27:56,132 WARNING database DDL Query made to DB:
+ALTER TABLE `tabLibrary Transaction` MODIFY `rent_fee` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `is_returned` tinyint NOT NULL DEFAULT 0, MODIFY `outstanding_debt` decimal(21,9) NOT NULL DEFAULT 0.0
+2024-10-02 20:28:10,164 WARNING database DDL Query made to DB:
+ALTER TABLE `tabLibrary Transaction` MODIFY `rent_fee` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `is_returned` tinyint NOT NULL DEFAULT 0, MODIFY `outstanding_debt` decimal(21,9) NOT NULL DEFAULT 0.0
+2024-10-02 20:28:14,733 WARNING database DDL Query made to DB:
+ALTER TABLE `tabLibrary Transaction` MODIFY `outstanding_debt` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `is_returned` tinyint NOT NULL DEFAULT 0, MODIFY `rent_fee` decimal(21,9) NOT NULL DEFAULT 0.0
+2024-10-02 20:29:21,801 WARNING database DDL Query made to DB:
+ALTER TABLE `tabBook` MODIFY `stock` int NOT NULL DEFAULT 0, MODIFY `rent_fee` decimal(21,9) NOT NULL DEFAULT 0.0

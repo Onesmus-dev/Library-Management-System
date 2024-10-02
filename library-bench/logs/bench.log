@@ -69,3 +69,38 @@
 2024-10-02 06:14:09,446 INFO /home/dokkodo/Desktop/library_management/env/bin/bench worker
 2024-10-02 06:14:09,516 INFO /home/dokkodo/Desktop/library_management/env/bin/bench serve --port 8000
 2024-10-02 06:14:09,562 INFO /home/dokkodo/Desktop/library_management/env/bin/bench schedule
+2024-10-02 08:56:06,704 INFO /home/dokkodo/Desktop/library_management/env/bin/bench start
+2024-10-02 08:56:07,263 INFO /home/dokkodo/Desktop/library_management/env/bin/bench worker
+2024-10-02 08:56:07,265 INFO /home/dokkodo/Desktop/library_management/env/bin/bench watch
+2024-10-02 08:56:07,303 INFO /home/dokkodo/Desktop/library_management/env/bin/bench serve --port 8000
+2024-10-02 08:56:07,307 INFO /home/dokkodo/Desktop/library_management/env/bin/bench schedule
+2024-10-02 19:08:19,924 INFO /home/dokkodo/Desktop/library_management/env/bin/bench start
+2024-10-02 19:08:20,502 INFO /home/dokkodo/Desktop/library_management/env/bin/bench worker
+2024-10-02 19:08:20,517 INFO /home/dokkodo/Desktop/library_management/env/bin/bench watch
+2024-10-02 19:08:20,559 INFO /home/dokkodo/Desktop/library_management/env/bin/bench serve --port 8000
+2024-10-02 19:08:20,563 INFO /home/dokkodo/Desktop/library_management/env/bin/bench schedule
+2024-10-02 20:38:11,459 INFO /home/dokkodo/Desktop/library_management/env/bin/bench restart
+2024-10-02 20:38:22,253 DEBUG cd /home/dokkodo/Desktop/library_management/library-bench && supervisorctl restart frappe:
+2024-10-02 20:38:22,721 WARNING cd /home/dokkodo/Desktop/library_management/library-bench && supervisorctl restart frappe: executed with exit code 7
+2024-10-02 20:38:22,721 WARNING /home/dokkodo/Desktop/library_management/env/bin/bench restart executed with exit code 1
+2024-10-02 20:38:27,032 INFO /home/dokkodo/Desktop/library_management/env/bin/bench start
+2024-10-02 20:38:27,824 INFO /home/dokkodo/Desktop/library_management/env/bin/bench serve --port 8000
+2024-10-02 20:38:27,836 INFO /home/dokkodo/Desktop/library_management/env/bin/bench worker
+2024-10-02 20:38:27,838 INFO /home/dokkodo/Desktop/library_management/env/bin/bench schedule
+2024-10-02 20:38:27,985 INFO /home/dokkodo/Desktop/library_management/env/bin/bench watch
+2024-10-02 20:45:13,000 INFO /home/dokkodo/Desktop/library_management/env/bin/bench start
+2024-10-02 20:45:13,489 INFO /home/dokkodo/Desktop/library_management/env/bin/bench worker
+2024-10-02 20:45:13,526 INFO /home/dokkodo/Desktop/library_management/env/bin/bench serve --port 8000
+2024-10-02 20:45:13,558 INFO /home/dokkodo/Desktop/library_management/env/bin/bench watch
+2024-10-02 20:45:13,617 INFO /home/dokkodo/Desktop/library_management/env/bin/bench schedule
+2024-10-02 21:00:01,513 INFO /home/dokkodo/Desktop/library_management/env/bin/bench new-site library.localhost
+2024-10-02 21:01:02,900 INFO /home/dokkodo/Desktop/library_management/env/bin/bench --site library.localhost install library_management
+2024-10-02 21:01:02,930 WARNING /home/dokkodo/Desktop/library_management/env/bin/bench --site library.localhost install library_management executed with exit code 2
+2024-10-02 21:01:51,019 INFO /home/dokkodo/Desktop/library_management/env/bin/bench use library.localhost
+2024-10-02 21:02:02,388 INFO /home/dokkodo/Desktop/library_management/env/bin/bench install-app library_management
+2024-10-02 21:02:37,999 INFO /home/dokkodo/Desktop/library_management/env/bin/bench start
+2024-10-02 21:02:38,484 INFO /home/dokkodo/Desktop/library_management/env/bin/bench watch
+2024-10-02 21:02:38,538 INFO /home/dokkodo/Desktop/library_management/env/bin/bench schedule
+2024-10-02 21:02:38,546 INFO /home/dokkodo/Desktop/library_management/env/bin/bench worker
+2024-10-02 21:02:38,611 INFO /home/dokkodo/Desktop/library_management/env/bin/bench serve --port 8000
+2024-10-02 21:07:18,467 INFO /home/dokkodo/Desktop/library_management/env/bin/bench console
